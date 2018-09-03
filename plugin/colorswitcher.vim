@@ -9,6 +9,8 @@ endif
 let g:loaded_colorswitcher = 1
 
 " command Switch call Colorswitcher(color_name)
+command Molokai colorscheme molokai
+
 command Pencil call Pencil()
 function Pencil()
   set bg=light
